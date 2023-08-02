@@ -1,0 +1,78 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+:root{
+    --collor-primary: #ED4D1B;
+    --collor-secundary: #FF9A3C;
+    --collor-black: black;
+    --collor-white: white;
+}
+
+body{
+    background: linear-gradient(90deg, #FFE7D1 0%, #FFF2E5 100%);
+    padding: 0 1rem;
+}
+
+
+header, 
+.hero-section, 
+.course-section,
+ footer{
+    border-color: var(--collor-black);
+    border-width: 0px 1px 1px 1px;
+    border-style: solid;
+    padding: 1.25rem;
+}
+
+header img{
+display: block;
+margin: 1rem auto;
+}
+
+header nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+nav a{
+    color: var(--collor-black);
+    font-size: 1.25rem;
+    padding: .5rem;
+}
+
+header nav a:nth-child(odd){
+    text-align: right;
+}
+
+.main-title{
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 105%;
+    color: var(--collor-black);
+}
+
+.main-title.-primary{
+    color: var(--collor-primary);
+}
+
+.mt-1 {
+    margin-top: 1rem;
+}
+
+.mt-2{
+    margin-top: 2rem;
+}
+
+.mb-1{
+    margin-bottom: 1rem;
+}
+
+.mb-2{
+    margin-bottom: 2rem;
+}
+
+.mx-auto{
+ margin-left: auto;
+ margin-right: auto ;
+}

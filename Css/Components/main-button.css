@@ -1,0 +1,16 @@
+.main-button{
+    display: block;
+    max-width: 14rem;
+    text-align: center;
+    align-items: center;
+    font-size: 1.25rem;
+    font-weight: 500;
+    background-color: var(--collor-primary);
+    color: var(--collor-black);
+    border: 2px solid var(--collor-black);
+    box-shadow: 4px 4px 0px  var(--collor-black);
+    text-transform: uppercase;
+    padding: .75rem 1rem;
+    box-sizing: border-box;
+
+}

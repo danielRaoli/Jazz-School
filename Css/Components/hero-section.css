@@ -1,0 +1,14 @@
+.hero-section{
+    padding-right: 0;
+    padding-bottom: 16rem;
+}
+
+.hero-section > img{
+    display: block;
+    max-width: 100%;
+    margin: 1.25rem 0 0 auto;
+}
+
+.hero-section .marketing > img {
+    margin-left: 9rem;
+}
