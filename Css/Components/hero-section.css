@@ -10,5 +10,35 @@
 }
 
 .hero-section .marketing > img {
-    margin-left: 9rem;
+    position: relative;
+
+}
+
+.hero-section .main-button{
+ position: relative;
+}
+
+.hero-section .main-button::after{
+    content: '';
+    background: url(../../Assets/images/arrow-curve.svg);
+    position:absolute;
+    right: -4rem;
+    width: 132px;
+    height: 48px;
+    top: 5rem;
+
+}
+
+.hero-section .decoration{
+    display: block;
+    position: relative;
+}
+
+.hero-section .decoration::after{
+    content: '';
+    position: absolute;
+    background: url(../../Assets/images/three-dashes.svg);
+    width: 40px;
+    height: 35px;
+    bottom: 2rem;
 }

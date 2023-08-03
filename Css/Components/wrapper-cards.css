@@ -1,0 +1,13 @@
+.wrapper-cards{
+    display: flex;
+    flex-direction: column;
+    margin-top: -7rem;
+    margin-bottom: 4rem;
+
+}
+
+.wrapper-cards .card:nth-child(2n){
+    margin-left: auto;
+    background-color: var(--collor-secundary);
+}
+
