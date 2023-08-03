@@ -35,7 +35,7 @@ header nav{
     grid-template-columns: 1fr 1fr;
 }
 
-nav a{
+header nav a{
     color: var(--collor-black);
     font-size: 1.25rem;
     padding: .5rem;
@@ -55,6 +55,34 @@ header nav a:nth-child(odd){
 .main-title.-primary{
     color: var(--collor-primary);
 }
+
+footer nav{
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+}
+
+footer nav a{
+    color: var(--collor-black);
+    font-size: 1.25rem;
+    padding-bottom: 2rem;
+}
+
+footer form label{
+    text-align: start;
+    font-size: 24px;
+    color: var(--collor-black);
+    font-weight: 500;
+}
+
+footer .box-email{
+    text-align: center;
+    width: 272px;
+    height: 48px;
+    box-shadow: 4px 4px 0 black;
+}
+
+
 
 .mt-1 {
     margin-top: 1rem;
