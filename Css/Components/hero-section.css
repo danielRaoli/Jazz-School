@@ -3,13 +3,13 @@
     padding-bottom: 16rem;
 }
 
-.hero-section > img{
+.hero-section .container > img{
     display: block;
     max-width: 100%;
     margin: 1.25rem 0 0 auto;
 }
 
-.hero-section .marketing > img {
+.hero-section .container .marketing > img {
     position: relative;
 
 }
@@ -41,4 +41,13 @@
     width: 40px;
     height: 35px;
     bottom: 2rem;
+}
+
+@media screen and (min-width:72rem) {
+    .hero-section .container{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+
 }

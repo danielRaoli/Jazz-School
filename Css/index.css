@@ -26,8 +26,14 @@ header,
 }
 
 header img{
-display: block;
-margin: 1rem auto;
+    display: block;
+    margin: 1rem auto;
+
+}
+
+header .main-button{
+    display: block;
+    margin: 0 auto;
 }
 
 header nav{
@@ -69,6 +75,7 @@ footer nav a{
 }
 
 footer form label{
+    display: block;
     text-align: start;
     font-size: 24px;
     color: var(--collor-black);
@@ -77,6 +84,7 @@ footer form label{
 
 footer .box-email{
     text-align: center;
+    font-size: 1.5rem;
     width: 272px;
     height: 48px;
     box-shadow: 4px 4px 0 black;
@@ -104,3 +112,48 @@ footer .box-email{
  margin-left: auto;
  margin-right: auto ;
 }
+
+@media screen and (min-width: 40rem) {
+    header nav{
+        display: block;
+        text-align: center;
+    }
+}
+
+@media  screen and (min-width: 48rem) {
+    header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+    }
+
+    header  img {
+        margin: 0;
+    }
+
+    header nav a{
+        display: inline-block;
+        transform: translatey(50%);
+    }
+
+    header .main-button{
+        margin: 0;
+    }
+
+    footer{
+        display: flex;
+        justify-content: space-around;
+        border-bottom: 0;
+        
+    }
+
+    footer p{
+
+        width: 272px;
+        height: 115px;
+    }
+}
+
+
+
